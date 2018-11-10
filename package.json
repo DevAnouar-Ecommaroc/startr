@@ -1,0 +1,16 @@
+{
+  "name": "startr",
+  "description": "A starter kit for building React frontend apps with Next.js, TypeScript, Styled Components, and Storybook.",
+  "version": "0.0.1",
+  "author": "Anouar Bellakha",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "next": "^7.0.2",
+    "react": "^16.6.1",
+    "react-dom": "^16.6.1"
+  }
+}
