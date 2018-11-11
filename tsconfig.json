@@ -1,22 +1,30 @@
 {
   "compilerOptions": {
+    /* Basic Options */
     "allowJs": true,
-    "allowSyntheticDefaultImports": true,
-    "baseUrl": ".",
     "jsx": "preserve",
     "lib": ["dom", "es2017"],
     "module": "esnext",
-    "moduleResolution": "node",
     "noEmit": true,
-    "noUnusedLocals": true,
     "preserveConstEnums": true,
     "removeComments": false,
     "skipLibCheck": true,
     "sourceMap": true,
+    "target": "esnext",
+
+    /* Strict Type-Checking Options */
     "strict": true,
-    "target": "esnext"
+
+    /* Additional Checks */
+    "noUnusedLocals": true,
+
+    /* Module Resolution Options */
+    "moduleResolution": "node",
+    "baseUrl": ".",
+    "typeRoots": ["node_modules/@types"],
+    "allowSyntheticDefaultImports": true
   },
-  "exclude": [
-    "node_modules"
+  "include": [
+    "src/**/*"
   ]
 }
